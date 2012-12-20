@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalSystem", "PortalSystem\PortalSystem.csproj", "{63B15AF5-183A-4B05-8D0B-F690EE15E6BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{3D9BB280-7918-4BE6-B252-AC2A8E26BD7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{B9D932BE-EF8A-4E06-8E0E-42BFF9D787FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL Layer", "BLL Layer", "{D32E19D4-741C-4278-B1D9-BA0E69226A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{A05D477A-4AC8-4626-8F63-8865F9303C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Representation Layer", "Representation Layer", "{3C07C8A8-64A5-447B-9ACB-932613BBDFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingManage", "AccountingManage\AccountingManage.csproj", "{7C748B14-B92E-4C3B-B293-DC665238204F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDomain", "BaseDomain\BaseDomain.csproj", "{534B87CC-D06F-4842-9AC3-3A6D10F9F821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAccount", "LazyAccount\LazyAccount.csproj", "{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountDomain", "AccountDomain\AccountDomain.csproj", "{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillDomain", "BillDomain\BillDomain.csproj", "{A81CFEAD-DBA4-4888-B360-3FF1DC967061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B15AF5-183A-4B05-8D0B-F690EE15E6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B15AF5-183A-4B05-8D0B-F690EE15E6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B15AF5-183A-4B05-8D0B-F690EE15E6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B15AF5-183A-4B05-8D0B-F690EE15E6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C748B14-B92E-4C3B-B293-DC665238204F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C748B14-B92E-4C3B-B293-DC665238204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C748B14-B92E-4C3B-B293-DC665238204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C748B14-B92E-4C3B-B293-DC665238204F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534B87CC-D06F-4842-9AC3-3A6D10F9F821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534B87CC-D06F-4842-9AC3-3A6D10F9F821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534B87CC-D06F-4842-9AC3-3A6D10F9F821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534B87CC-D06F-4842-9AC3-3A6D10F9F821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81CFEAD-DBA4-4888-B360-3FF1DC967061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81CFEAD-DBA4-4888-B360-3FF1DC967061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81CFEAD-DBA4-4888-B360-3FF1DC967061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81CFEAD-DBA4-4888-B360-3FF1DC967061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63B15AF5-183A-4B05-8D0B-F690EE15E6BD} = {3C07C8A8-64A5-447B-9ACB-932613BBDFDB}
+		{CCC2E0E2-2020-40E5-B67D-6E363D8CAE88} = {3C07C8A8-64A5-447B-9ACB-932613BBDFDB}
+		{534B87CC-D06F-4842-9AC3-3A6D10F9F821} = {3D9BB280-7918-4BE6-B252-AC2A8E26BD7B}
+		{3BEB254B-54C2-4080-BC50-BDEDE27DC1DE} = {3D9BB280-7918-4BE6-B252-AC2A8E26BD7B}
+		{A81CFEAD-DBA4-4888-B360-3FF1DC967061} = {3D9BB280-7918-4BE6-B252-AC2A8E26BD7B}
+		{7C748B14-B92E-4C3B-B293-DC665238204F} = {D32E19D4-741C-4278-B1D9-BA0E69226A55}
+	EndGlobalSection
+EndGlobal

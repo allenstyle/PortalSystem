@@ -1,0 +1,23 @@
+﻿@model IList<BillDomain.Entity.Item>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Site.cshtml";
+}
+
+@Html.ActionLink("新增名目", "Add")
+<table>
+    <tr>
+        <td>編號</td>
+        <td>名目</td>
+        <td>預算</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.ItemName</td>
+            <td>@item.ItemBudget</td>
+        </tr>
+    }
+</table>

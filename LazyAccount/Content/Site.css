@@ -1,0 +1,30 @@
+/*
+    Designed by @AllenStyle
+*/
+/*
+    Basic Style
+*/
+body
+{
+    font-size: 75%;
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+
+/*
+    Table style
+*/
+.table_list{background-color:#6E7B8B; width:100%; border-collapse:collapse;font-size:14px;}
+.table_list thead th{font-size:85%; height:28px; color:#ffffff; border-right-width:1px; border-right-style:solid; border-right-color:#FFFFFF;}
+.table_list tbody tr:hover{background-color:#FFFACD;}
+.table_list tbody tr{background-color: #FFFFFF; color:#666666; font-size:85%; 
+					 border-bottom-width:1px; border-bottom-style:dashed; border-bottom-color:#CCCCCC;}
+.table_list tbody td{padding:5px; border-right-width:1px; border-right-style:solid; border-right-color:#FFFFFF;}
+.table_list tfoot tr{height:28px; background-color:#6E7B8B; color:#ffffff}
+
+/*
+    Control style
+*/
+input[type=text]:focus{background-color:#FFDAB9; border:1px solid #C1CDCD;}/*滑鼠點下去可變色*/
